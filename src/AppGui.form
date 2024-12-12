@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AppGui">
+  <grid id="27dc6" binding="mainGui" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="813" height="594"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="33cef" class="javax.swing.JLabel" binding="Titulo">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono ExtraBold" size="22"/>
+          <text value="ToDo TaskBar"/>
+        </properties>
+      </component>
+      <grid id="45c7a" binding="Adicionar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="12" left="0" bottom="12" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="88c22" class="javax.swing.JTextField" binding="input">
+            <constraints/>
+            <properties>
+              <columns value="22"/>
+              <font name="JetBrains Mono Medium" size="22"/>
+              <horizontalAlignment value="2"/>
+            </properties>
+          </component>
+          <component id="c8d76" class="javax.swing.JButton" binding="adicionarButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Adicionar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a9b07" binding="Main" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="da864" binding="TaskBarPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="b5ad6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="24" bottom="5" right="24" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono ExtraBold" size="22"/>
+          <text value="Tarefas"/>
+        </properties>
+      </component>
+      <grid id="d0828" binding="Lateral" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e5f73" class="javax.swing.JButton" binding="rTaskBarButton">
+            <constraints/>
+            <properties>
+              <text value="Remover"/>
+            </properties>
+          </component>
+          <component id="e6a8b" class="javax.swing.JButton" binding="aTaskBar">
+            <constraints/>
+            <properties>
+              <text value="Adicionar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7f7ca" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3af79" class="javax.swing.JTextField" binding="taskBarInput">
+            <constraints/>
+            <properties>
+              <columns value="16"/>
+              <font name="JetBrains Mono Medium" size="22"/>
+              <horizontalAlignment value="2"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
